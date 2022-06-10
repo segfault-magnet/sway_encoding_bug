@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "inputs": [],
+    "name": "test_function",
+    "outputs": [
+      {
+        "name": "",
+        "type": "enum TopLevelEnum",
+        "components": [
+          {
+            "name": "first",
+            "type": "struct ThenAStruct",
+            "components": [
+              {
+                "name": "first",
+                "type": "enum LowerLevelEnum",
+                "components": [
+                  {
+                    "name": "first",
+                    "type": "u32",
+                    "components": null
+                  },
+                  {
+                    "name": "second",
+                    "type": "b256",
+                    "components": null
+                  }
+                ]
+              },
+              {
+                "name": "second",
+                "type": "u32",
+                "components": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
